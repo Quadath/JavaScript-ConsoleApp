@@ -37,7 +37,7 @@ movies: {
 
 Проверить, чтобы все работало без ошибок в консоли */
 
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+/* const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
 const personalMovieDB = {
     count: numberOfFilms,
@@ -69,5 +69,6 @@ if (personalMovieDB.count < 10) {
     console.log('Вы обычный зритель');
 } else if (personalMovieDB.count >= 30) {
     console.log('Вы киноман!');
-}
+} */
 
+const calc = (a, b) => a + b;
