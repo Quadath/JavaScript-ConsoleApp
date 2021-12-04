@@ -151,3 +151,4 @@ arr.forEach(function(item, i, arr) {
     console.log(`${i}: ${item} inside ${arr}`);
 });
 //Ya zaebalsa blyat
+//BLYAT
