@@ -108,9 +108,8 @@ function CountUserLevel() {
 }
 CountUserLevel(); */
 
-"use strict";
 
-const options = {
+/* const options = {
     name: 'test',
     width: 1024,
     height: 1024,
@@ -142,4 +141,12 @@ console.log(size);
 console.log(Object.keys(options).length);
 
 const {border, bg} = options.colors;
-console.log(border);
+console.log(border); */
+
+"use strict";
+
+const arr = [2, 3, 6, 8, 10];
+
+arr.forEach(function(item, i, arr) {
+    console.log(`${i}: ${item} inside ${arr}`);
+});
